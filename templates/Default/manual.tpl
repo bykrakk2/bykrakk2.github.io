@@ -1,0 +1,5 @@
+<div class="text-page">
+    <h1 class="h1">Как покупать игры на нашем сайте</h1>
+
+    <p class="h-mrg-b-10"></p><h1 class="h1"><br></h1><ol class="how2buy"><li class="how2buy__item"><h2 class="h5">выбор игры</h2>Процесс покупки игры на нашем сайте максимально прост. Вы подбираете интересующую вас игру через каталог, либо с помощью удобного поиска.<br>Фильтр поможет найти игру по жанрам, категориям, платформе и цене.<br><br><img src="http://keypin.ru/images/buyStep1.png" alt="" class="fr-fic fr-dii"><br><br></li><li class="how2buy__item"><h2 class="h5">покупка игры</h2>Для покупки нажмите кнопку „Купить” в карточке игры. Также здесь вы можете ознакомиться с подробным описанием игры и отзывами покупателей.<br><br><img src="http://keypin.ru/images/buyStep2.png" alt="" class="fr-fic fr-dii"><br><br></li><li class="how2buy__item"><h2 class="h5">Оплата</h2>Укажите вашу электронную почту (на нее мы пришлем ключ для активации игры), затем выберите удобный способ оплаты и после успешной оплаты Вы получите персональную ссылку для скачивания игры.<br><br><img src="http://keypin.ru/images/buyStep3.png" alt="" class="fr-fic fr-dii"><br><br></li></ol><p></p>
+</div>
