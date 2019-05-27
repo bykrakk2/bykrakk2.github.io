@@ -1,0 +1,131 @@
+
+
+.r-review-list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.r-review-list .item {
+background: #F2F2F2;
+margin-top: 7px;
+margin-bottom: 7px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+position: relative;
+padding: 13px 20px;
+}
+
+.r-review-list .item .r-item-text {
+font-size: 12px;
+line-height: 18px;
+color: #000;
+margin-top: 0;
+margin-bottom: 13px;
+}
+
+.r-review-list .item .r-item-preview {
+width: 70px;
+height: 33px;
+overflow: hidden;
+float: left;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+margin-top: 2px;
+}
+
+.r-review-list .item .r-item-desc {
+font-size: 12px;
+line-height: 17px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.r-review-list .item .r-item-title {
+font-weight: bold;
+}
+
+.digiseller-reviewgood {
+width: 16px;
+height: 16px;
+position: absolute;
+top: 0;
+bottom: 0;
+margin: auto;
+background: url(/img/icon-good-reviews.png)/***css-loader:: can't load recource***/ no-repeat;
+}
+
+.digiseller-reviewbad {
+width: 16px;
+height: 16px;
+position: absolute;
+top: 0;
+bottom: 0;
+margin: auto;
+background: url(/img/icon-bad-reviews.png)/***css-loader:: can't load recource***/ no-repeat;
+}
+
+.r-review-list span {
+display: inline-block;
+float: left;
+}
+
+.right_block {
+padding-left: 40px;
+}
+
+
+.digiseller-reviewcomment{
+background: #e5e5e5;
+margin-top: 7px;
+margin-bottom: 7px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+position: relative;
+padding: 13px 20px;
+}
+
+
+.review-counter {
+color: #000;
+display: inline-block;
+background: #F2F2F2;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+font-weight: bold;
+padding: 0 3px;
+}
+
+.discount-hr{
+height: 5px;
+background: #ededed;
+border: 0;
+}
+
+.discount-table h3 {
+font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+font-size: 24px;
+font-weight: bold;
+}
+
+.digiseller-options {
+background: #000;
+height: 30px;
+}
+
+.digiseller-options a {
+  color: white;
+}

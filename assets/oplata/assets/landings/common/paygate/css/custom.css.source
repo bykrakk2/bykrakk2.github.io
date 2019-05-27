@@ -1,0 +1,148 @@
+body {
+  background: url('../images/bg.jpg');
+  background-size: cover;
+}
+.items-holder {
+  visibility: hidden;
+}
+.top-menu {
+  margin-top: 25px;
+}
+.top-menu .back-button a {
+  padding-left: 0px;
+  transition: all 0.2s ease 0s;
+}
+.top-menu .back-button a:hover,
+.top-menu .back-button a:active {
+  text-decoration: none;
+}
+.top-menu .logo {
+  height: 43px;
+  line-height: 43px;
+  color: white;
+  font-size: 20px;
+}
+.paygate-panel {
+  margin-top: 25px;
+}
+.paygate-panel .pannel-body {
+  padding-top: 0px !important;
+}
+.paygate-panel .left-bar .affix {
+  position: fixed;
+  top: -10px;
+}
+.paygate-panel .left-bar .info-icon {
+  position: relative;
+  top: 1px;
+  left: 3px;
+}
+.paygate-panel .left-bar blockquote small:before {
+  content: '';
+}
+.paygate-panel .fake-submit {
+  width: 100%;
+}
+.paygate-panel .right-bar .nav-paymethods {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.paygate-panel .right-bar .nav-paymethods li a {
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+}
+.paygate-panel .right-bar .nav-paymethods.alert-hover li:not(.active) a {
+  background-color: #e6e6e6;
+  transition: all 0.2s ease 0s;
+}
+.paygate-panel .right-bar span.inline {
+  background-color: white;
+  padding-right: 15px;
+}
+.paygate-panel .right-bar hr.inline {
+  margin-top: -10px;
+  margin-bottom: 31px;
+}
+.paygate-panel .right-bar .more-results {
+  cursor: default;
+}
+.paygate-panel .items-holder .item {
+  margin-bottom: 15px;
+}
+.paygate-panel .items-holder .item .item-inner {
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  border: 2px white solid;
+}
+.paygate-panel .items-holder .item .item-inner:hover {
+  border: 2px #e6e6e6 solid;
+}
+.paygate-panel .items-holder .item .item-inner.active {
+  border: 2px #2780e3 solid;
+}
+.paygate-panel .items-holder .item img {
+  width: 100%;
+}
+.paygate-panel .method-holder .bootstrap-select {
+  width: auto !important;
+}
+.paygate-panel .method-holder button.dropdown-toggle {
+  outline: none;
+}
+.paygate-panel .method-holder button.dropdown-toggle:hover,
+.paygate-panel .method-holder button.dropdown-toggle:focus {
+  outline: none !important;
+  text-decoration: none;
+}
+.paygate-panel .method-holder .dropdown-menu li a {
+  outline: none;
+}
+.panel-footer {
+  padding: 15px;
+}
+.panel-footer .footer h4 {
+  margin-top: 20px;
+}
+.panel-footer .footer h4 span {
+  font-weight: 500;
+}
+.panel-footer .footer .btn-submit.topmargin {
+  margin-top: 15px;
+}
+#get-phone-number #phone-error-holder {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#get-phone-number label {
+  margin-bottom: 0px;
+}
+@media (max-width: 767px) {
+  .no-results {
+    text-align: center;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .nav-paymethods {
+    font-size: 0.8em;
+  }
+  .nav-paymethods li {
+    margin-bottom: 3px;
+  }
+  .panel-footer .footer h4,
+  .panel-footer .footer h5 {
+    text-align: center;
+  }
+  .panel-footer .footer .btn-submit {
+    width: 100%;
+  }
+  .panel-footer .footer .btn-submit.topmargin {
+    margin-top: 0px;
+  }
+  .panel-footer .footer div:first-child {
+    margin-bottom: 15px;
+  }
+  .panel-footer .footer .method-holder .bootstrap-select {
+    margin-bottom: 0px;
+  }
+}

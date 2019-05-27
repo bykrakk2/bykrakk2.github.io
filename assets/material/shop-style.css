@@ -1,0 +1,19 @@
+.admwidg {
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    border-radius: 15px;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 5%;
+    margin-left: 20px;
+}
+.admwidg:hover {
+    background: rgba(0, 0, 0, 0.76);
+}
+
+.admimg {
+    width: 100%;
+}

